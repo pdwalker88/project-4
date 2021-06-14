@@ -1,23 +1,23 @@
 <!doctype html>
-<html lang="Default">
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="seo, google, website, internet, web design, design agency, contact info">
+    <meta name="description" content="Contact Me Here">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+    <link rel="preload" href="./resizedcss/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="./resizedcss/bootstrap.min.css" media="screen"></noscript>
+
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen">
 	
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+	<link rel="preload" href="./resizedcss/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" type="text/css" href="./resizedcss/font-awesome.min.css" media="screen"></noscript>
+
+	<link rel="preload" href="./resizedcss/et-line.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" type="text/css" href="./resizedcss/et-line.min.css" media="screen"></noscript>
+	
     <title>Contact</title>
 
     
@@ -26,8 +26,12 @@
 <!-- Analytics END -->
     
 </head>
+
 <body>
+
+	<a id="skip-link" class="screenreader-text" href="#main">Skip to Main</a>
 <!-- Main container -->
+
 <div class="page-container">
     
 <!-- bloc-0 -->
@@ -35,23 +39,24 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/atlanta%20web%20design%20logo.png"  height="40" /></a>
-				<!-- <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<div class="keywords" style="color:#ffffff;font-size:1px;">web agency atlanta, web strategy, web design, logo, website, web, internet, logo design</div>
+				<a class="navbar-brand" href="index.html"><img src="resizedimg/logo2.webp" alt="logo, seo, google, website, internet, web design," width="215" height="40" /></a>
+					<div class="keywords" style="color:#cccccc;font-size:1px;">web agency atlanta, web strategy, web design, logo, website, web, internet, logo design</div>
+
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button> -->
+				</button>
 			</div>
-			<!-- <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
 						<a href="index.html">Home</a>
 					</li>
 					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2</a>
+						<a href="page2.html">Contact</a>
 					</li>
 				</ul>
-			</div> -->
+			</div>
 		</nav>
 	</div>
 </div>
@@ -81,19 +86,19 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
-							Name
+						<label for="Your Name">
+							Your Name
 						</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Email
+						<label for="Your Email">
+							Your Email
 						</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="Find Me">
 							How did you find me?
 						</label>
 						<input class="form-control" type="email" required id="input_504" />
@@ -134,7 +139,7 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="index.html" alt="twitter"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
@@ -162,6 +167,11 @@
 </div>
 <!-- Main container END -->
     
+    <script src="./js/jquery-2.1.0.min.js" async></script>
+	<script src="./js/bootstrap.min.js" async></script>
+	<script src="./js/blocs.js" async></script>
+	<script src="./js/jquery.touchSwipe.min.js" async></script>
+	<script src="./js/gmaps.min.js" async></script>
 
 </body>
 </html>
